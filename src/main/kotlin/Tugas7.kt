@@ -1,15 +1,16 @@
-fun jay(b: Int) :Int {
-    if (b % 2 == 0) {
-        println("$b adalah bilangan genap")
+fun addOrEven(number: Int) :Int {
+    if (number % 2 == 0) {
+        println("$number adalah bilangan genap")
     } else {
-        println("$b adalah bilangan ganjil")
+        println("$number adalah bilangan ganjil")
     }
-    return b
+    return number
 }
 
 fun main() {
   //  println(check( 3))
-    jay (2)
+    addOrEven (3)
+    addOrEven(8)
 }
 //fun check(a: Int) :String {
   //  if (a % 2 == 0) {
